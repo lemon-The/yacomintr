@@ -1,0 +1,29 @@
+Yet Another Command Interpreter
+===============================
+
+This project has made for educational purposes. You may do whatever you want with it.
+
+Features:
+=========
+1) Starting programs
+2) Starting programs in a background ('prog' &)
+3) Starting pipelines ('prog_one' | 'prog_two')
+4) Redirecting the input/output stream (>, <, >>)
+5) New program starts in a new proccess group
+6) Programs in a pipeline have the same proccess group
+7) Support for double quotes (echo "string with gaps and ><>>|&")
+8) Support for '\' (touch file\ with\ gaps\ and\>\<\&)
+9) Support for cd
+
+In development:
+1) Support for &&, ||, (), ;
+2) Autocompletion
+
+Installation:
+=============
+Use 'make' utility
+
+Run:
+====
+./yaci
+To complete type: ctrl+D
